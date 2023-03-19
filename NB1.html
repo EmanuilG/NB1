@@ -403,7 +403,7 @@
 
 <body>
     <noscript><p>Der NB1 hilft mit Textbausteinen einen Arztbrief zusammenzustellen.<br>Das Programm verändert nichts an Ihrem Rechner, es verbindet sich nicht mit dem Internet, es braucht keine Installation. Es besteht aus einer einzigen einfachen Text-Datei, die HTML-, CSS- und Javascript-Code enthält. <br>Dieser Code wird von Ihrem Browser interpretiert. <br>Sie sehen diesen Text, weil Javascript in Ihrem Browser deaktiviert ist. Erwägen Sie bitte, Javascript zu aktivieren. <br>Der NB1 braucht einen neuen Browser, am besten funktioniert er mit Firefox 45 oder neuer<br>
-<br>Emanuil Giuris<br>giuris@gmail.com<br><br>NB1 1.2, Letzte Aktualisierung: 12.02.2023</p></noscript>
+<br>Emanuil Giuris<br>giuris@gmail.com<br><br>NB1 1.2, Letzte Aktualisierung: 19.03.2023</p></noscript>
     <div id="topBar">
         <button class="bt1" onclick="ez1()">Arztbrief</button>
         <button class="bt1" onclick="ez4()">Hilfe</button>
@@ -690,7 +690,7 @@
     <div id="viert" class="wrap2">
         <div class="fleft50">
             <h3>Hilfe</h3>
-            <p>Der NB1 hilft mit Textbausteinen.<br>Klicken Sie auf die Knöpfe <b>Mann</b> oder <b>Frau</b>. So wird das richtige Geschlecht des Patienten in die Texte eingefügt. Voreingestellt ist <b>Frau</b>.<br>Der Typ-korrekt-Knopf verschönert typographisch:<br>1. Wenn Leerzeichen, nur ein Leerzeichen<br>2. Kein Leerzeichen vor . , ? : )<br>3. Kein Leerzeichen nach (<br>4. Ein Leerzeichen nach . , : wenn keine Zahl folgt<br>5. Ein Leerzeichen vor %<br>6. Ein Leerzeichen nach einer Zahl, wenn ein Buchstabe folgt<br>7. 10.30 Uhr wird 10:30 Uhr <br>Probieren Sie den Markdown-Editor, Sie schreiben einfachen Text nach bestimmten intuitiven Regeln der <a href="https://github.com/showdownjs/showdown/wiki/Showdown%27s-Markdown-syntax">Markdown syntax</a> und Sie bekommen formatierten Text, den Sie in andere Programme einfügen können. Der Markdown-Editor benutzt die Bibliothek <a href="https://github.com/showdownjs/showdown">showdown.js</a><br><br>Das Programm verändert nichts an Ihrem Rechner, es verbindet sich nicht mit dem Internet, es braucht keine Installation. Es besteht aus einer einzigen einfachen Text-Datei, die HTML-, CSS- und Javascript-Code enthält. Dieser Code wird von Ihrem Browser interpretiert. Wenn Sie HTML-, CSS- und Javascript kostenfrei und ohne Anmeldung lernen möchten, besuchen Sie: <a href="http://www.w3schools.com/">w3schools</a>. Der NB1 funktioniert am besten mit Firefox.<br>Emanuil Giuris<br>giuris@gmail.com<br><br>NB1 1.2, Letzte Aktualisierung: 12.02.2023<br>GNU General Public License, Version 3 <br><a href="https://emanuilg.github.io/NB1/">NB1-Website</a><br></p>
+            <p>Der NB1 hilft mit Textbausteinen.<br>Klicken Sie auf die Knöpfe <b>Mann</b> oder <b>Frau</b>. So wird das richtige Geschlecht des Patienten in die Texte eingefügt. Voreingestellt ist <b>Frau</b>.<br>Der Typ-korrekt-Knopf verschönert typographisch:<br>1. Wenn Leerzeichen, nur ein Leerzeichen<br>2. Kein Leerzeichen vor . , ? : )<br>3. Kein Leerzeichen nach (<br>4. Ein Leerzeichen nach . , : wenn keine Zahl folgt<br>5. Ein Leerzeichen vor %<br>6. Ein Leerzeichen nach einer Zahl, wenn ein Buchstabe folgt<br>7. 10.30 Uhr wird 10:30 Uhr <br>Probieren Sie den Markdown-Editor, Sie schreiben einfachen Text nach bestimmten intuitiven Regeln der <a href="https://github.com/showdownjs/showdown/wiki/Showdown%27s-Markdown-syntax">Markdown syntax</a> und Sie bekommen formatierten Text, den Sie in andere Programme einfügen können. Der Markdown-Editor benutzt die Bibliothek <a href="https://github.com/showdownjs/showdown">showdown.js</a><br><br>Das Programm verändert nichts an Ihrem Rechner, es verbindet sich nicht mit dem Internet, es braucht keine Installation. Es besteht aus einer einzigen einfachen Text-Datei, die HTML-, CSS- und Javascript-Code enthält. Dieser Code wird von Ihrem Browser interpretiert. Wenn Sie HTML-, CSS- und Javascript kostenfrei und ohne Anmeldung lernen möchten, besuchen Sie: <a href="http://www.w3schools.com/">w3schools</a>. Der NB1 funktioniert am besten mit Firefox.<br>Emanuil Giuris<br>giuris@gmail.com<br><br>NB1 1.2, Letzte Aktualisierung: 19.03.2023<br>GNU General Public License, Version 3 <br><a href="https://emanuilg.github.io/NB1/">NB1-Website</a><br></p>
         </div>
         <div class="fright50">
             <h3>Tastenkombinationen</h3> Die folgenden Tastenkombinationen gelten in den meisten Windows-Anwendungen.<br>Sie helfen bei der Textbearbeitung.<br>Sie gelten auch für das weiße Textfeld im 'NBrief'.
@@ -791,6 +791,8 @@
                     <select id="icd-diagnosen" class="select1 select2" size="1" onKeyUp="icddiagn()">
 
 <!-- diagnosisstart -->
+
+
 <option value="H49.2 GVZ RL Abduzensparese">Abduzensparese rechts links bds.</option><br>
 <option value="F17.2 G Rauchen">Abhängigkeitssyndrom (Tabak)</option><br>
 <option value="E66.00 G Adipositas, BMI ">Adipositas, BMI 30-34,9</option><br>
@@ -820,6 +822,7 @@
 <option value="R40.2 VAG Bewusstlosigkeit">Bewusstlosigkeit</option><br>
 <option value="H02.3 G BRL Blepharochalasis rechts links bds.">Blepharochalasis</option><br>
 <option value="G24.5 G Blepharospasmus">Blepharospasmus</option><br>
+<option value="K35.8 Blinddarm">Blinddarm</option><br>
 <option value="G54.0 VAG RL Brachialplexusläsion rechts links bds.">Brachialplexusläsion</option><br>
 <option value="C50.9 VAGZ BRL Brustkrebs rechts links bds.">Brustkrebs</option><br>
 <option value="G25.5 VAG Chorea">Chorea</option><br>
@@ -831,6 +834,8 @@
 <option value="G90.51 VAG BRL Komplexes regionales Schmerzsyndrom Typ I, (CRPS I) der unteren Extremität">CRPS I der unteren Extremität</option><br>
 <option value="G90.60 VAG BRL Komplexes regionales Schmerzsyndrom Typ II, (CRPS II) der oberen Extremität">CRPS II der oberen Extremität</option><br>
 <option value="G90.61 VAG BRL Komplexes regionales Schmerzsyndrom Typ II, (CRPS II) der unteren Extremität">CRPS II der unteren Extremität</option><br>
+<option value="C26.0 GZ Darmkrebs">Darmkrebs</option><br>
+<option value="C26.0 GZ Darmkrebs">Darmkrebs</option><br>
 <option value="F10.7 Demenz bei Alkoholkrankheit">Demenz: Alkoholkrankheit</option><br>
 <option value="G30.0 F00.0* VAG Alzheimer-Krankheit mit frühem Beginn (vor 65. LJ)">Demenz: Alzheimer früher Beginn</option><br>
 <option value="G30.1 F00.1* VAG Alzheimer-Krankheit mit spätem Beginn (nach 65. LJ)">Demenz: Alzheimer später Beginn</option><br>
@@ -842,6 +847,7 @@
 <option value="F01.1 VAG Multiinfarkt-Demenz (vorwiegend kortikal)">Demenz: multiinfarkt</option><br>
 <option value="F01.2 VAG Subkortikale vaskuläre Demenz ">Demenz: subkortikal vaskulär</option><br>
 <option value="F03 Demenz noch unklarer Ursache">Demenz: unklare Ursache</option><br>
+<option value="F33.9 VAG Depression">Depression</option><br>
 <option value="F32.0 VAG Leichte depressive Episode">Depressive Episode (leicht): 2 KS, 2 ZS, beruflich/sozial schwierig, sonst Alltag OK</option><br>
 <option value="F32.9 VAG Depressive Episode">Depressive Episode (mind. 2 KS)</option><br>
 <option value="F32.1 VAG Mittelgradige depressive Episode">Depressive Episode (mittelgradig): 2 KS, 3 ZS, Alltag erschwert</option><br>
@@ -850,7 +856,6 @@
 <option value="F33.1 VAG Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode">Depressive Störung, gegenwärtig mittelgradige Episode</option><br>
 <option value="F33.2 VAG Rezidivierende depressive Störung, gegenwärtig schwere Episode">Depressive Störung, gegenwärtig schwere Episode</option><br>
 <option value="F33.4 VAG Rezidivierende depressive Störung, gegenwärtig remittiert">Depressive Störung, rezidivierend, gegenwärtig remittiert</option><br>
-<option value="F33.9 VAG Depression">Depression</option><br>
 <option value="E10 G Diabetes mellitus Typ 1">Diabetes mellitus Typ 1</option><br>
 <option value="E11 G Diabetes mellitus Typ 2">Diabetes mellitus Typ 2</option><br>
 <option value="H53.2 VAG Diplopie">Diplopie</option><br>
@@ -874,6 +879,7 @@
 <option value="M79.70 VAG Fibromyalgie">Fibromyalgie</option><br>
 <option value="E53.8 VAG Folsäure-Mangel">Folsäure-Mangel</option><br>
 <option value="F45.9 VAG Funktionelle Körperbeschwerden">Funktionelle Körperbeschwerden</option><br>
+<option value="Z90.4 Z Cholezystektomie">Gallen-OP</option><br>
 <option value="R26.0 VAG Ataktischer Gang">Gang ataktisch</option><br>
 <option value="M67.44 G RL Handganglion rechts links bds.">Ganglion der Hand</option><br>
 <option value="R26.1 VAG Paretischer Gang">Gang paretisch</option><br>
@@ -890,6 +896,7 @@
 <option value="R44.1 VG Akustische Halluzinationen (jeder Art)">Halluzinationen, akustische (jeder Art)</option><br>
 <option value="R44.1 VG Optische Halluzinationen (jeder Art)">Halluzinationen, optische (jeder Art)</option><br>
 <option value="R32 VAG Harninkontinenz">Harninkontinenz</option><br>
+<option value="N39.0 VGZ Harnwegsinfekt">Harnwegsinfekt</option>
 <option value="G81.0 VAG Schlaffe Hemiparese und Hemiplegie">Hemiparese schlaff</option><br>
 <option value="G81.1 VAG BRL Spastische Hemiparese und Hemiplegie">Hemiparese spastisch</option><br>
 <option value="I25.29 G Z.n. Myokardinfarkt">Herzinfarkt, alt</option><br>
@@ -907,6 +914,7 @@
 <option value="Z96.64 G BRL Hüftgelenkprothese rechts links bds.">Hüftgelenkprothese</option><br>
 <option value="R20.1 Hypästhesie der Haut">Hypästhesie</option><br>
 <option value="E78.0 VAG Reine Hypercholesterinämie">Hypercholesterinämie, reine</option><br>
+<option value="E78.5 G Hyperlipidämie">Hyperlipidämie</option><br>
 <option value="E05.9 VAG Hyperthyreose">Hyperthyreose</option><br>
 <option value="E03.9 G Hypothyreose">Hypothyreose</option><br>
 <option value="M75.4 VAG BRL Impingement-Syndrom der Schulter">Impingement-Syndrom der Schulter  </option><br>
@@ -919,10 +927,12 @@
 <option value="H51.2 VAG BRL Internukleäre Ophthalmoplegie rechts links">Internukleäre Ophthalmoplegie</option><br>
 <option value="G93.2 VAG Idiopathische intrakranielle Hypertension">Intrakranielle Hypertension</option><br>
 <option value="R64 G Kachexie">Kachexie</option><br>
+<option value="I65.2 A Ausschluss einer Karotisstenose">Karotisstenose - Ausschluss</option><br>
 <option value="I65.2 VAG Verschluss und Stenose der A. carotis">Karotisstenose</option><br>
 <option value="G56.0 VAG BRL Karpaltunnelsyndrom bds. rechts leichtgradig mittelgradig links leichtgradig mittelgradig (Ausschluss)">Karpaltunnelsyndrom</option><br>
 <option value="K07.6 G BRL Kiefergelenkdysfunktion">Kiefergelenkdysfunktion</option><br>
 <option value="Z96.65 G BRL Kniegelenkprothese rechts links bds.">Kniegelenkprothese</option><br>
+<option value="Z96.65 Z Knie-TEP rechts links bds.">Knie-TEP</option><br>
 <option value="F06.7 VAG Leichte kognitive Beeinträchtigung">Kognitive Beeinträchtigung leicht</option><br>
 <option value="S00.95 VAG Oberflächliche Verletzung des Kopfes">Kopfprellung</option><br>
 <option value="G43.8 VAG Chronische Migräne">Kopfschmerz: Chronische Migräne</option><br>
@@ -997,6 +1007,8 @@
 <option value="N18.9 G Chronische Niereninsuffizienz Stadium ">Niereninsuffizienz Stadium </option><br>
 <option value="G91.20 VAG Idiopathischer Normaldruckhydrozephalus">Normaldruckhydrozephalus, idiopathisch</option><br>
 <option value="H55 G Nystagmus, angeboren Blickrichtungsnystagmus">Nystagmus</option><br>
+<option value="S42.3 GZ RL Oberarm-Fraktur">Oberarm-Fraktur</option>
+<option value="S72.9 GZ RL Oberschenkel-Fraktur">Oberschenkels-Fraktur</option>
 <option value="G58.8 GV RL Okzipitalneuralgie">Okzipitalneuralgie</option><br>
 <option value="F06.8 VAG Organische Psychose">Organische Psychose</option><br>
 <option value="I95.1 VAG Orthostatische Dysregulation">Orthostatische Dysregulation</option><br>
@@ -1099,11 +1111,14 @@
 <option value="G50.0 VAG BRL idiopathische Trigeminusneuralgie rechts links bds.">Trigeminusneuralgie, idiopathisch</option><br>
 <option value="M76.8 VAG BRL V.a. Trochanter-Schmerzsyndrom rechts links bds.">Trochanter-Schmerzsyndrom</option><br>
 <option value="G56.2 VAG BRL Läsion des N. ulnaris rechts links bds.">Ulnaris-Läsion</option><br>
+<option value="S52 GZ RL Unterarm-Fraktur">Unterarm-Fraktur</option>
+<option value="S82.9 GZ RL Unterschenkel-Fraktur">Unterschenkel-Fraktur</option>
 <option value="R53 VAG Unwohlsein und Ermüdung">Unwohlsein und Ermüdung</option><br>
 <option value="H81.8 VAG Sonstige Störungen der Vestibularfunktion">Vestibularfunktion-Störung, sonst</option><br>
 <option value="E53.8 VAG Vitamin-B12-Mangel">Vitamin-B12-Mangel</option><br>
 <option value="I48.9 VG Vorhofflimmern">Vorhofflimmern</option><br>
 <option value="M75.9 VAG BRL Weichteilläsion der Schulter rechts links bds.">Weichteilläsion der Schulter</option><br>
+<option value="T08.0 GZ Wirbelkörper-Fraktur">Wirbelkörper-Fraktur</option>
 <option value="I68.0* VAG Zerebrale Amyloidangiopathie">Zerebrale Amyloidangiopathie</option><br>
 <option value="G80.1 VAG Spastische diplegische Zerebralparese">Zerebralparese, Diplegie</option><br>
 <option value="G80.2 VAG Infantile hemiplegische Zerebralparese">Zerebralparese, Hemiplegie</option><br>
@@ -1117,83 +1132,87 @@
 <option value="B02.2 VAG RL Post-Zoster-Neuralgie Zoster mit Neuralgie im Dermatom  rechts links bds.">Zoster mit neuropathischen Schmerzen im Dermatom </option><br>
 <option value="B02.9 VAG RL Zoster ohne Komplikation im Dermatom  rechts links bds.">Zoster ohne Komplikation im Dermatom </option><br>
 
+
+
+
+
+
 <!-- diagnosisend -->
 
 
 
-                    </select></form>
-            </div>
-            <div class="wrap3" id="Diagnosen">
-                <form>
-                    <select id="diagnosen" class="select1 select2" size="" onKeyUp="diagn()">
-                <option value="Adipositas">Adipositas</option><br>
-                <option value="Alkoholkrankheit">Alkoholkrankheit</option>
-                <option value="Alkoholkrankheit">Alkoholkrankheit</option>
-                <option value="Arterielle Hypertonie">Arterielle Hypertonie</option><br>
-                <option value="Asthma bronchiale">Asthma bronchiale</option><br>
-                <option value="Bandscheibenvorfall">Bandscheibenvorfall</option><br>
-                <option value="Blinddarm">Blinddarm</option><br>
-                <option value="Brustkrebs">Brustkrebs</option><br>
-                <option value="COPD Stadium">COPD</option>
-                <option value="Darmkrebs">Darmkrebs</option><br>
-                <option value="Delir">Delir</option><br>
-                <option value="Demenz, leicht, mittelschwer, schwer">Demenz</option>
-                <option value="Depression">Depression</option><br>
-                <option value="Diabetes mellitus Typ 1 2">DM</option>
-                <option value="Epileptischer Anfall, generalisiert tonisch-klonisch, komplex-fokal, fokal, nicht-konvulsiv, Status epilepticus">Epil. Anfall</option><br>
-                <option value="symptomatische, idiopathische Epilepsie">Epilepsie</option>
-                <option value="Periphere Fazialisparese rechts links">Fazialisparese</option><br>
-                <option value="Fibromyalgie">Fibromyalgie</option>
-                <option value="Ellenbogen-Knochenbruch Ellenbogen-Fraktur">Fraktur Ellenbogen</option>
-                <option value="Oberarm-Knochenbruch Oberarm-Fraktur">Fraktur Oberarm</option>
-                <option value="Oberschenkel-Knochenbruch Oberschenkel-Fraktur">Fraktur Oberschenkel</option>
-                <option value="Unterarm-Knochenbruch Unterarm-Fraktur">Fraktur Unterarm</option>
-                <option value="Unterschenkel-Knochenbruch Unterschenkel-Fraktur">Fraktur Unterschenkel</option>
-                <option value="Wirbelkörper-Knochenbruch Wirbelkörper-Fraktur">Fraktur Wirbelkörper</option>
-                <option value="Funktionelle Körperbeschwerden">Funktionell</option>
-                <option value="Galle Cholezystektomie">Gallen-OP</option><br>
-                <option value="Guillain-Barré-Syndrom">Guillain-Barré-Syndrom</option><br>
-                <option value="Harnwegsinfekt">Harnwegsinfekt</option>
-                <option value="Herzinfarkt">Herzinfarkt</option>
-                <option value="Herzinsuffizienz NYHA Stadium ">Herzinsuffizienz</option>
-                <option value="Hirnblutung ca.  x cm rechts links">Hirnblutung</option><br>
-                <option value="Hirninfarkt im Stromgebiet der A. cerebri media posterior anterior rechts links">Hirninfarkt</option>
-                <option value="Infarkt im Hirnstamm Kleinhirn rechts links">Hirnstamm-Kleinhirn</option><br>
-                <option value="Hyperlipidämie">Hyperlipidämie</option><br>
-                <option value="Hyperthyreose">Hyperthyreose</option><br>
-                <option value="Hyperurikämie">Hyperurikämie</option><br>
-                <option value="Hypothyreose">Hypothyreose</option><br>
-                <option value="Koronare Herzkrankheit">KHK</option>
-                <option value="Koronarer Bypass">Koronarer Bypass</option>
-                <option value="Migräne mit ohne Aura">Migräne</option><br>
-                <option value="Multiple Sklerose, schubförmig, sekundär primär progredient, EDSS ">Multiple Sklerose</option><br>
-                <option value="Myasthenia gravis">Myasthenia gravis</option><br>
-                <option value="Neuritis vestibularis rechts links">Neuritis vestibularis</option>
-                <option value="Niereninsuffizienz Stadium">Niereninsuffizienz</option>
-                <option value="Idiopathisches Parkinson-Syndrom">Parkinson</option>
-                <option value="pAVK">pAVK</option><br>
-                <option value="Pneumonie">Pneumonie</option><br>
-                <option value="Psoriasis Arthritis">Psoriasis Arthritis</option><br>
-                <option value="Radikulopathie C6 C7 L5 S1 rechts links">Radikulopathie</option><br>
-                <option value="Rheumatoide Arthritis">Rheumatoide Arthritis</option><br>
-                <option value="Subarachnoidalblutung Hunt Hess mit ohne Ventrikeleinblutung">SAB</option>
-                <option value="Schlafapnoe-Syndrom (hat kein Schlafapnoe-Gerät)">Schlafapnoe</option><br>
-                <option value="Schlafstörung">Schlafstörung</option><br>
-                <option value="Schulter-OP">Schulter-OP</option><br>
-                <option value="Gutartiger Lagerungsschwindel des posterioren Bogengangs rechts links">Schwindel Lagerung</option><br>
-                <option value="Kopfschmerzen vom Spannungstyp">Spannungskopfschmerzen</option>
-                <option value="Lumbale Spinalkanalstenose">Spinalkanalstenose Lumbale</option>
-                <option value="Zervikale Spinalkanalstenose">Spinalkanalstenose Zervikale</option>
-                <option value="Strabismus convergens divergens concomitans">Strabismus</option>
-                <option value="Syndrom der unruhigen Beine">Syndrom der unruhigen Beine</option><br>
-                <option value="Hüft-TEP rechts links bds.">TEP Hüfte</option><br>
-                <option value="Knie-TEP rechts links bds.">TEP Knie</option><br>
-                <option value="Transiente globale Amnesie">TGA</option><br>
-                <option value="Transitorisch-ischämische Attacke">TIA</option>
-                <option value="Vorhofflimmern, Erstdiagnose, ohne unter Antikoagulation mit">VHF</option><br>
-                <option value="Z.n.">Z.n.</option>
-                </select></form>
-                <br>
+</select></form>
+</div>
+<div class="wrap3" id="Diagnosen">
+<form>
+<select id="diagnosen" class="select1 select2" size="" onKeyUp="diagn()">
+<option value="Adipositas">Adipositas</option><br>
+<option value="Alkoholkrankheit">Alkoholkrankheit</option>
+<option value="Arterielle Hypertonie">Arterielle Hypertonie</option><br>
+<option value="Asthma bronchiale">Asthma bronchiale</option><br>
+<option value="Bandscheibenvorfall">Bandscheibenvorfall</option><br>
+<option value="Blinddarm">Blinddarm</option><br>
+<option value="Brustkrebs">Brustkrebs</option><br>
+<option value="COPD Stadium">COPD</option>
+<option value="Darmkrebs">Darmkrebs</option><br>
+<option value="Delir">Delir</option><br>
+<option value="Demenz, leicht, mittelschwer, schwer">Demenz</option>
+<option value="Depression">Depression</option><br>
+<option value="Diabetes mellitus Typ 1 2">DM</option>
+<option value="Epileptischer Anfall, generalisiert tonisch-klonisch, komplex-fokal, fokal, nicht-konvulsiv, Status epilepticus">Epil. Anfall</option><br>
+<option value="symptomatische, idiopathische Epilepsie">Epilepsie</option>
+<option value="Periphere Fazialisparese rechts links">Fazialisparese</option><br>
+<option value="Fibromyalgie">Fibromyalgie</option>
+<option value="Ellenbogen-Knochenbruch Ellenbogen-Fraktur">Fraktur Ellenbogen</option>
+<option value="Oberarm-Knochenbruch Oberarm-Fraktur">Fraktur Oberarm</option>
+<option value="Oberschenkel-Knochenbruch Oberschenkel-Fraktur">Fraktur Oberschenkel</option>
+<option value="Unterarm-Knochenbruch Unterarm-Fraktur">Fraktur Unterarm</option>
+<option value="Unterschenkel-Knochenbruch Unterschenkel-Fraktur">Fraktur Unterschenkel</option>
+<option value="Wirbelkörper-Knochenbruch Wirbelkörper-Fraktur">Fraktur Wirbelkörper</option>
+<option value="Funktionelle Körperbeschwerden">Funktionell</option>
+<option value="Galle Cholezystektomie">Gallen-OP</option><br>
+<option value="Guillain-Barré-Syndrom">Guillain-Barré-Syndrom</option><br>
+<option value="Harnwegsinfekt">Harnwegsinfekt</option>
+<option value="Herzinfarkt">Herzinfarkt</option>
+<option value="Herzinsuffizienz NYHA Stadium ">Herzinsuffizienz</option>
+<option value="Hirnblutung ca.  x cm rechts links">Hirnblutung</option><br>
+<option value="Hirninfarkt im Stromgebiet der A. cerebri media posterior anterior rechts links">Hirninfarkt</option>
+<option value="Infarkt im Hirnstamm Kleinhirn rechts links">Hirnstamm-Kleinhirn</option><br>
+<option value="Hyperlipidämie">Hyperlipidämie</option><br>
+<option value="Hyperthyreose">Hyperthyreose</option><br>
+<option value="Hyperurikämie">Hyperurikämie</option><br>
+<option value="Hypothyreose">Hypothyreose</option><br>
+<option value="Koronare Herzkrankheit">KHK</option>
+<option value="Koronarer Bypass">Koronarer Bypass</option>
+<option value="Migräne mit ohne Aura">Migräne</option><br>
+<option value="Multiple Sklerose, schubförmig, sekundär primär progredient, EDSS ">Multiple Sklerose</option><br>
+<option value="Myasthenia gravis">Myasthenia gravis</option><br>
+<option value="Neuritis vestibularis rechts links">Neuritis vestibularis</option>
+<option value="Niereninsuffizienz Stadium">Niereninsuffizienz</option>
+<option value="Idiopathisches Parkinson-Syndrom">Parkinson</option>
+<option value="pAVK">pAVK</option><br>
+<option value="Pneumonie">Pneumonie</option><br>
+<option value="Psoriasis Arthritis">Psoriasis Arthritis</option><br>
+<option value="Radikulopathie C6 C7 L5 S1 rechts links">Radikulopathie</option><br>
+<option value="Rheumatoide Arthritis">Rheumatoide Arthritis</option><br>
+<option value="Subarachnoidalblutung Hunt Hess mit ohne Ventrikeleinblutung">SAB</option>
+<option value="Schlafapnoe-Syndrom (hat kein Schlafapnoe-Gerät)">Schlafapnoe</option><br>
+<option value="Schlafstörung">Schlafstörung</option><br>
+<option value="Schulter-OP">Schulter-OP</option><br>
+<option value="Gutartiger Lagerungsschwindel des posterioren Bogengangs rechts links">Schwindel Lagerung</option><br>
+<option value="Kopfschmerzen vom Spannungstyp">Spannungskopfschmerzen</option>
+<option value="Lumbale Spinalkanalstenose">Spinalkanalstenose Lumbale</option>
+<option value="Zervikale Spinalkanalstenose">Spinalkanalstenose Zervikale</option>
+<option value="Strabismus convergens divergens concomitans">Strabismus</option>
+<option value="Syndrom der unruhigen Beine">Syndrom der unruhigen Beine</option><br>
+<option value="Hüft-TEP rechts links bds.">TEP Hüfte</option><br>
+<option value="Knie-TEP rechts links bds.">TEP Knie</option><br>
+<option value="Transiente globale Amnesie">TGA</option><br>
+<option value="Transitorisch-ischämische Attacke">TIA</option>
+<option value="Vorhofflimmern, Erstdiagnose, ohne unter Antikoagulation mit">VHF</option><br>
+<option value="Z.n.">Z.n.</option>
+</select></form>
+<br>
 
 <button class="bt1 bttext" onclick="ed1('M - Lokalisation-Gliedmaßen \r\n0: Mehrere Lokalisationen \r\n1: Schulterregion [Klavikula, Skapula, Akromioklavikular-, Schulter-, Sternoklavikulargelenk] \r\n2: Oberarm [Humerus, Ellenbogengelenk] \r\n3: Unterarm [Radius, Ulna, Handgelenk] \r\n4: Hand [Finger, Handwurzel, Mittelhand, Gelenke zwischen diesen Knochen] \r\n5: Beckenregion und Oberschenkel [Becken, Femur, Gesäß, Hüfte, Hüftgelenk, Iliosakralgelenk] \r\n6: Unterschenkel [Fibula, Tibia, Kniegelenk] \r\n7: Knöchel und Fuß [Fußwurzel, Mittelfuß, Zehen, Sprunggelenk, sonstige Gelenke des Fußes] \r\n8: Sonstige [Hals, Kopf, Rippen, Rumpf, Schädel, Wirbelsäule] \r\n9: Nicht näher bezeichnete Lokalisation \r\n\r\n')">M-Lok-Gliedm</button>
 
@@ -1762,7 +1781,7 @@
 
             <!--the star logo-->
             <p>&nbsp;&nbsp;&nbsp;&nbsp;<svg height="40" width="40"><polygon points="20.0,2.0 8.0,39.6 38.0,15.6 2.0,15.6 32.0,39.6" style="fill:Gold;"/></svg></p>
-            <span>NB1 1.2 <br>12.02.2023</span>
+            <span>NB1 1.2 <br>19.03.2023</span>
         </div>
     </div>
     
