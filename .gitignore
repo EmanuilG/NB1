@@ -1,0 +1,24 @@
+# --- Jekyll / GitHub Pages ---
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- System / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# --- Python (falls du kleine Scripts nutzt) ---
+__pycache__/
+*.pyc
